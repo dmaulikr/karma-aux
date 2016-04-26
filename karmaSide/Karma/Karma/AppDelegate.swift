@@ -19,7 +19,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         Parse.enableLocalDatastore()
-        Parse.setApplicationId("BxhDSXXm8bkumrzuWzujxZWqOrgPG6bn8Pe83iOz", clientKey: "MLt64DxvpFk3HQRdEy4pYtpnlVS4frMb04K6TQXH")
+        Parse.setLogLevel(PFLogLevel.Info);
+        
+        let config = ParseClientConfiguration(block: {
+            (ParseMutableClientConfiguration) -> Void in
+            
+            ParseMutableClientConfiguration.applicationId = "9YgHqEAS3xSpjH2RQuDJ";
+            //            ParseMutableClientConfiguration.clientKey = "DKrD1S0VCwYLfoWKrBQJ";
+            ParseMutableClientConfiguration.server = "https://karmamdbv2.herokuapp.com/parse";
+        });
+        
+        Parse.initializeWithConfiguration(config);
         
         
         return true

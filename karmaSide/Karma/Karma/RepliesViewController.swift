@@ -60,8 +60,8 @@ class RepliesViewController: UIViewController, UICollectionViewDelegate, UIColle
         messages.removeAll()
         
         
-        let query = PFQuery(className:"Messages")
-        query.orderByDescending("sentDate")
+        let query = PFQuery(className:"Replies")
+        query.orderByDescending("replyDate")
         query.whereKey("authorized", notEqualTo: true)
         query.whereKey("flagged", notEqualTo: true)
         query.findObjectsInBackgroundWithBlock {
@@ -233,9 +233,8 @@ class RepliesViewController: UIViewController, UICollectionViewDelegate, UIColle
         //255, 184, 77
         cell.backgroundView = nil;
         //print(body);
-        cell.message.text = messages[indexPath.row]["messageBody"] as! String
-        cell.time.text = cleanTime((messages[indexPath.row]["sentDate"] as? NSDate)!)
-        cell.location.text = messages[indexPath.row]["audience"] as! String
+        cell.message.text = messages[indexPath.row]["replyBody"] as! String
+        cell.time.text = cleanTime((messages[indexPath.row]["replyDate"] as? NSDate)!)
         
         
         
@@ -268,7 +267,9 @@ class RepliesViewController: UIViewController, UICollectionViewDelegate, UIColle
         return cell
     }
     
-    
+    override func viewDidAppear(animated: Bool) {
+        refresh()
+    }
     
     
     

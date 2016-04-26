@@ -194,11 +194,12 @@ class receivedViewController: UIViewController, UICollectionViewDelegate, UIColl
         
         let screenWidth = screenSize.width
         
-        self.view.backgroundColor = UIColor.greenColor()
+        //self.view.backgroundColor = UIColor.greenColor()
         receivedMessagesCollectionView.frame.size.width = screenWidth
         receivedMessagesCollectionView.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1.0)
         
         receivedMessagesCollectionView.backgroundView = nil;
+        print("formatted")
         
         
         refresher = UIRefreshControl()
@@ -209,6 +210,10 @@ class receivedViewController: UIViewController, UICollectionViewDelegate, UIColl
         
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        refresh()
     }
 
     override func didReceiveMemoryWarning() {
@@ -241,7 +246,6 @@ class receivedViewController: UIViewController, UICollectionViewDelegate, UIColl
         //print(body);
         cell.message.text = messages[indexPath.row]["messageBody"] as! String
         cell.time.text = cleanTime((messages[indexPath.row]["sentDate"] as? NSDate)!)
-        cell.location.text = messages[indexPath.row]["audience"] as! String
         
         
         

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC3B036D1CB02CA90000EC38"
-               BuildableName = "KarmaSide.app"
-               BlueprintName = "KarmaSide"
-               ReferencedContainer = "container:KarmaSide.xcodeproj">
+               BuildableName = "Karma.app"
+               BlueprintName = "Karma"
+               ReferencedContainer = "container:Karma.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC3B03811CB02CAA0000EC38"
-               BuildableName = "KarmaSide.xctest"
-               BlueprintName = "KarmaSideTests"
-               ReferencedContainer = "container:KarmaSide.xcodeproj">
+               BuildableName = "Karma.xctest"
+               BlueprintName = "KarmaTests"
+               ReferencedContainer = "container:Karma.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FC3B038C1CB02CAA0000EC38"
-               BuildableName = "KarmaSide.xctest"
-               BlueprintName = "KarmaSideUITests"
-               ReferencedContainer = "container:KarmaSide.xcodeproj">
+               BuildableName = "Karma.xctest"
+               BlueprintName = "KarmaUITests"
+               ReferencedContainer = "container:Karma.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC3B036D1CB02CA90000EC38"
-            BuildableName = "KarmaSide.app"
-            BlueprintName = "KarmaSide"
-            ReferencedContainer = "container:KarmaSide.xcodeproj">
+            BuildableName = "Karma.app"
+            BlueprintName = "Karma"
+            ReferencedContainer = "container:Karma.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC3B036D1CB02CA90000EC38"
-            BuildableName = "KarmaSide.app"
-            BlueprintName = "KarmaSide"
-            ReferencedContainer = "container:KarmaSide.xcodeproj">
+            BuildableName = "Karma.app"
+            BlueprintName = "Karma"
+            ReferencedContainer = "container:Karma.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FC3B036D1CB02CA90000EC38"
-            BuildableName = "KarmaSide.app"
-            BlueprintName = "KarmaSide"
-            ReferencedContainer = "container:KarmaSide.xcodeproj">
+            BuildableName = "Karma.app"
+            BlueprintName = "Karma"
+            ReferencedContainer = "container:Karma.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
