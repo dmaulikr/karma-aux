@@ -74,13 +74,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>370AA958BD30845B220AA7E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA153DB02365CAC70274AA9C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>5C35E7AA00AF7252744B1ED7</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -110,6 +103,13 @@ fi
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
+		</dict>
+		<key>885E377CB716857EF94D5A56</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8D36717F77E0524D21C8643</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A55867D4E0E8E3A1BDEC2294</key>
 		<dict>
@@ -146,8 +146,8 @@ fi
 			<key>children</key>
 			<array>
 				<string>FC31A08B1CB03AA9005AA369</string>
-				<string>CA153DB02365CAC70274AA9C</string>
-				<string>EA3A7DF6983660DAE55C9E78</string>
+				<string>FEF01AC5CFE5F8ED6350250B</string>
+				<string>F8D36717F77E0524D21C8643</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -155,26 +155,6 @@ fi
 			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA153DB02365CAC70274AA9C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_Karma.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CB850E927912366BD11ADB5A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA3A7DF6983660DAE55C9E78</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>D83409AD1CC89500007ECA3D</key>
 		<dict>
@@ -290,24 +270,12 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E8F0D2301CCC03B200AFF6AE</key>
+		<key>E59CFAA788682531E5FB03B5</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string></string>
-			<key>dstSubfolderSpec</key>
-			<string>10</string>
-			<key>files</key>
-			<array>
-				<string>FC6312511CCC1EB300D34C8B</string>
-			</array>
+			<key>fileRef</key>
+			<string>FEF01AC5CFE5F8ED6350250B</string>
 			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>name</key>
-			<string>Embed Frameworks</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>E8F0D23A1CCC0ADC00AFF6AE</key>
 		<dict>
@@ -437,19 +405,6 @@ fi
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EA3A7DF6983660DAE55C9E78</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>F1BA1B0F7EB295F53DC0E1B9</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -469,10 +424,23 @@ fi
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Karma/Pods-Karma-frameworks.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
+		</dict>
+		<key>F8D36717F77E0524D21C8643</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_Karma.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>FC31A08B1CB03AA9005AA369</key>
 		<dict>
@@ -642,9 +610,8 @@ fi
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>370AA958BD30845B220AA7E5</string>
-				<string>FC6312501CCC1EB300D34C8B</string>
-				<string>CB850E927912366BD11ADB5A</string>
+				<string>E59CFAA788682531E5FB03B5</string>
+				<string>885E377CB716857EF94D5A56</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -679,7 +646,6 @@ fi
 				<string>FC3B036C1CB02CA90000EC38</string>
 				<string>F1BA1B0F7EB295F53DC0E1B9</string>
 				<string>0548F2EA3675A8DC1C8A7808</string>
-				<string>E8F0D2301CCC03B200AFF6AE</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -1302,6 +1268,11 @@ fi
 				<string>iPhone Developer</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
 				<string>iPhone Developer</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>$(PROJECT_DIR)/build/Debug-iphoneos</string>
+				</array>
 				<key>INFOPLIST_FILE</key>
 				<string>Karma/Info.plist</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -1334,6 +1305,11 @@ fi
 				<string>iPhone Developer</string>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
 				<string>iPhone Developer</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>$(PROJECT_DIR)/build/Debug-iphoneos</string>
+				</array>
 				<key>INFOPLIST_FILE</key>
 				<string>Karma/Info.plist</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -1499,28 +1475,6 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;absolute&gt;</string>
 		</dict>
-		<key>FC6312501CCC1EB300D34C8B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC63124F1CCC1EB300D34C8B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC6312511CCC1EB300D34C8B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC63124F1CCC1EB300D34C8B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>CodeSignOnCopy</string>
-					<string>RemoveHeadersOnCopy</string>
-				</array>
-			</dict>
-		</dict>
 		<key>FC77745A1CCCD3BB00A305DD</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -1600,6 +1554,19 @@ fi
 			<string>FCCEF0781CBE02BC00740817</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>FEF01AC5CFE5F8ED6350250B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
